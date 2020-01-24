@@ -150,6 +150,12 @@ body {
   height: 36px;
 }
 
+.center a {
+  display: inline-block;
+  margin: 0 18px 25px;
+  height: 29px;
+}
+
 .nav-list li a {
   width: auto;
   height: 36px;
@@ -172,6 +178,25 @@ body {
   margin-right: auto;
   margin-left: auto;
   background-image: url("http://images.apple.com/global/nav/images/globalnav_text.svg");
+}
+
+footer .piped a {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.promo ul li a {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .nav-list .apple a {
@@ -212,24 +237,24 @@ body {
 
 .search {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 0;
+  right: 0;
   width: 135px;
   border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAADUlEQVQIHWP4r8YABgAJCwEmqyi5lgAAAABJRU5ErkJggg%3D%3D) 0 2 0 1 fill;
   padding: 8px 13px;
   background: none;
-  border-width: 0px 2px 0px 1px;
+  border-width: 0 2px 0 1px;
 }
 
 .search form {
   margin-top: 1px;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px -1px 0px, rgba(255, 255, 255, 0.2) 0px 1px 0px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0, rgba(255, 255, 255, 0.2) 0 1px 0;
   position: relative;
   width: 100%;
   height: auto;
-  background: url("http://images.apple.com/global/nav/images/globalsearch_field.png") 0px 0px no-repeat;
+  background: url("http://images.apple.com/global/nav/images/globalsearch_field.png") 0 0 no-repeat;
   background-color: rgba(255, 255, 255, 0.1);
-  padding: 0px;
+  padding: 0;
   border-radius: 12px;
   border: none;
 }
@@ -238,6 +263,7 @@ body {
   margin-bottom: -1px;
   width: 100%;
   height: 19px;
+  background: none;
   background-image: none;
   box-sizing: border-box;
   padding: 2px 18px 1px 22px;
@@ -245,7 +271,6 @@ body {
   border: none;
   outline: none;
   color: #fff;
-  background: none;
 }
 
 /* Main Section */
@@ -253,8 +278,8 @@ body {
 main {
   display: block;
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 0;
+  right: 0;
   bottom: 220px;
   left: 0;
   overflow: hidden;
@@ -335,12 +360,6 @@ main h2 {
   text-align: center;
 }
 
-.center a {
-  display: inline-block;
-  margin: 0 18px 25px;
-  height: 29px;
-}
-
 .center a .medium {
   display: inline-block;
 }
@@ -380,18 +399,6 @@ main h2 {
   margin: 0;
   width: 25%;
   height: 200px;
-}
-
-.promo ul li a {
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: block;
-  overflow: hidden;
-  cursor: pointer;
 }
 
 .promo ul li a img {
@@ -456,13 +463,6 @@ footer .piped li {
   border-left: 1px solid #ccc;
 }
 
-footer .piped a {
-  display: inline-block;
-  margin: 0px;
-  padding: 0px;
-  border: none;
-}
-
 footer .piped .worldwide {
   position: relative;
   top: 5px;
@@ -479,18 +479,18 @@ footer .wrapper .piped a {
   color: #08c;
 }
 
-footer .wrapper .piped a:hover {
-  text-decoration: underline;
-}
-
 .nav-list li a:hover {
   border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4L8TA8F%2FovxAADsEDNFWY%2FFQAAAAASUVORK5CYII%3D) 0 2 0 1;
   background: #575757;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAkCAQAAADifZiHAAAAJ0lEQ…zE8JeJ4R8q%2Bo%2BKCIH%2FjEA1TAyMSIgJRkIQM9BYAGa0Dj%2FXpUiAAAAAAElFTkSuQmCC) repeat-x 0 0, url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAE0lEQVQIW2P8z8jAwMAIh0wICAAa0gETv9XXOgAAAABJRU5ErkJggg%3D%3D) repeat-y 100% 0, url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAEklEQVQIW2P8L8TwDwn%2Bh0MGAKnjDAIoAAlcAAAAAElFTkSuQmCC) repeat-y 0 0, rgba(0, 0, 0, .4);
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAkCAQAAADifZiHAAAAJ0lEQ…zE8JeJ4R8q%2Bo%2BKCIH%2FjEA1TAyMSIgJRkIQM9BYAGa0Dj%2FXpUiAAAAAAElFTkSuQmCC) repeat-x 0 0, url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAE0lEQVQIW2P8z8jAwMAIh0wICAAa0gETv9XXOgAAAABJRU5ErkJggg%3D%3D) repeat-y 100% 0, url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAEklEQVQIW2P8L8TwDwn%2Bh0MGAKnjDAIoAAlcAAAAAElFTkSuQmCC) repeat-y 0 0, rgba(0, 0, 0, 0.4);
 }
 
 .nav-list li:first-child a {
   border-width: 0 2px 0 0;
   border-radius: 4px 0 0 4px;
-  height: 34px;  
+  height: 34px;
+}
+
+footer .wrapper .piped a:hover {
+  text-decoration: underline;
 }
