@@ -2,8 +2,8 @@
 > Project built using basic HTML and CSS.
 
 This static page contains:
-- Navbar built with CSS linear gradient and CSS Sprite
-- Main hero section with backgroubd image
+- Navbar built with CSS linear-gradient and CSS Sprite
+- Main hero section with background image
 - Promo section 
 - Footer
 
