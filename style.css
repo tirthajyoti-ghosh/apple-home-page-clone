@@ -1,0 +1,500 @@
+/* Reset CSS */
+
+blockquote,
+body,
+dd,
+dl,
+dt,
+fieldset,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+html,
+iframe,
+legend,
+li,
+ol,
+p,
+pre,
+textarea,
+span,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: 400;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+td:not([align]),
+th:not([align]) {
+  text-align: left;
+}
+
+/* Base CSS */
+
+html,
+body {
+  position: relative;
+  z-index: 1;
+  min-width: 1024px;
+  height: 100%;
+  background: #fff;
+}
+
+body {
+  min-height: 100vh;
+  max-height: 100vh;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+/* Navigation Bar */
+
+.nav-header {
+  position: relative;
+}
+
+.nav-header nav {
+  position: relative;
+  display: block;
+  width: 980px;
+  height: 36px;
+  top: 83px;
+  margin: 0 auto;
+  text-align: left;
+  z-index: 9998;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) 50% 50% no-repeat, -webkit-gradient(linear, 0 100%, 0 0, from(rgb(102, 102, 102)), color-stop(0.5, rgb(94, 94, 94)), color-stop(0.51, rgb(112, 112, 112)), to(rgb(128, 128, 128)));
+  -khtml-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -khtml-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  -ms-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  -o-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.nav-list {
+  display: table;
+  float: left;
+  width: 845px;
+  table-layout: fixed;
+  height: 36px;
+}
+
+.nav-list li {
+  display: table-cell;
+  width: 100%;
+  overflow: hidden;
+  height: 36px;
+}
+
+.center a {
+  display: inline-block;
+  margin: 0 18px 25px;
+  height: 29px;
+}
+
+.nav-list li a {
+  width: auto;
+  height: 36px;
+  background: none;
+  display: block;
+  float: none;
+  text-decoration: none;
+  border-style: solid;
+  border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D) 0 2 0 1 fill;
+  overflow: hidden;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+
+.nav-list li a span {
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 3px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url("http://images.apple.com/global/nav/images/globalnav_text.svg");
+}
+
+footer .piped a {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.promo ul li a {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.nav-list .apple a {
+  background-position: 0 0;
+}
+
+.nav-list .apple a span {
+  background-position: 50% 0;
+}
+
+.nav-list .store a span {
+  background-position: 50% -30px;
+}
+
+.nav-list .mac a span {
+  background-position: 50% -60px;
+}
+
+.nav-list .ipod a span {
+  background-position: 50% -90px;
+}
+
+.nav-list .iphone a span {
+  background-position: 50% -120px;
+}
+
+.nav-list .ipad a span {
+  background-position: 50% -150px;
+}
+
+.nav-list .itunes a span {
+  background-position: 50% -180px;
+}
+
+.nav-list .support a span {
+  background-position: 50% -210px;
+}
+
+.search {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 135px;
+  border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAADUlEQVQIHWP4r8YABgAJCwEmqyi5lgAAAABJRU5ErkJggg%3D%3D) 0 2 0 1 fill;
+  padding: 8px 13px;
+  background: none;
+  border-width: 0 2px 0 1px;
+}
+
+.search form {
+  margin-top: 1px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0, rgba(255, 255, 255, 0.2) 0 1px 0;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: url("http://images.apple.com/global/nav/images/globalsearch_field.png") 0 0 no-repeat;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0;
+  border-radius: 12px;
+  border: none;
+}
+
+.search form input {
+  margin-bottom: -1px;
+  width: 100%;
+  height: 19px;
+  background: none;
+  background-image: none;
+  box-sizing: border-box;
+  padding: 2px 18px 1px 22px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+/* Main Section */
+
+main {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 120px;
+  left: 0;
+  overflow: hidden;
+}
+
+main .hero {
+  right: auto;
+  left: 50%;
+  margin-left: -720px;
+  width: 1440px;
+  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+  background-size: 1440px 1315px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+main .full {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: transparent;
+  font-size: 0;
+  line-height: 0;
+}
+
+main .header {
+  margin-top: 120px;
+  padding: 50px 0;
+  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_scrim.png) 0 50% repeat-x;
+  background-size: 25px 335px;
+}
+
+main h1 {
+  margin-bottom: -9px;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.title img {
+  display: none;
+  margin: 0 auto;
+  width: 980px;
+}
+
+.title .small {
+  display: block;
+}
+
+main h2 {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.subheadline {
+  margin-bottom: 27px;
+}
+
+.subheadline img {
+  display: none;
+  margin-right: auto;
+  margin-left: auto;
+  width: 980px;
+}
+
+.subheadline .small {
+  display: block;
+}
+
+.center {
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+  height: 31px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.center a .medium {
+  display: inline-block;
+  width: 980px;
+}
+
+.center a .large {
+  display: none;
+}
+
+/* Promo Section */
+
+.promo {
+  position: absolute;
+  z-index: 1;
+  bottom: -80px;
+  overflow: hidden;
+  width: 100%;
+  height: 200px;
+}
+
+.promo ul {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin: 0 auto;
+  min-width: 1024px;
+  width: 100%;
+  max-width: 1440px;
+  height: 200px;
+  text-align: center;
+}
+
+.promo ul li {
+  position: relative;
+  z-index: 1;
+  float: left;
+  overflow: hidden;
+  margin: 0;
+  width: 25%;
+  height: 200px;
+}
+
+.promo ul li a img {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  margin-left: -179px;
+  max-width: 364px;
+}
+
+/* Footer */
+
+footer {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  bottom: -160px;
+  left: 0;
+  margin: 0;
+  min-width: 980px;
+  width: 100%;
+  height: 90px;
+  padding: 0;
+  color: #6e6e6e;
+  font-size: 9px;
+  line-height: 1.2;
+  text-align: center;
+  zoom: 1;
+}
+
+footer .wrapper {
+  margin: 0 auto;
+  width: 980px;
+  padding: 1em 0 2.6em;
+}
+
+footer .left {
+  float: left;
+  clear: both;
+  width: 49%;
+  padding-top: 1.5em;
+  text-align: left;
+}
+
+footer .right {
+  float: right;
+  width: 51%;
+  padding-top: 1.5em;
+  text-align: right;
+}
+
+footer .piped li.first {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: none;
+}
+
+footer .piped li {
+  display: inline-block;
+  float: none;
+  margin-left: 0.6em;
+  padding-left: 0.6em;
+  border-left: 1px solid #ccc;
+}
+
+footer .piped .worldwide {
+  position: relative;
+  top: 5px;
+  width: 20px;
+  height: 10px;
+}
+
+footer .wrapper p,
+footer .wrapper ul {
+  display: inline;
+}
+
+footer .wrapper .left a {
+  color: #08c;
+}
+
+.nav-list li a:hover {
+  border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4L8TA8F%2FovxAADsEDNFWY%2FFQAAAAASUVORK5CYII%3D) 0 2 0 1;
+  background: #575757;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAkCAQAAADifZiHAAAAJ0lEQ…zE8JeJ4R8q%2Bo%2BKCIH%2FjEA1TAyMSIgJRkIQM9BYAGa0Dj%2FXpUiAAAAAAElFTkSuQmCC) repeat-x 0 0, url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAE0lEQVQIW2P8z8jAwMAIh0wICAAa0gETv9XXOgAAAABJRU5ErkJggg%3D%3D) repeat-y 100% 0, url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAEklEQVQIW2P8L8TwDwn%2Bh0MGAKnjDAIoAAlcAAAAAElFTkSuQmCC) repeat-y 0 0, rgba(0, 0, 0, 0.4);
+}
+
+.nav-list li:first-child a {
+  border-width: 0 2px 0 0;
+  border-radius: 4px 0 0 4px;
+  height: 34px;
+}
+
+footer .wrapper .piped a:hover {
+  text-decoration: underline;
+}
