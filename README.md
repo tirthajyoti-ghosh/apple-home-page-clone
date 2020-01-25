@@ -16,7 +16,7 @@ It shows you a static clone of [this page](https://web.archive.org/web/201403010
 #### and deployed to Raw Githack
 
 ## Live Demo
-[Live Demo](https://rawcdn.githack.com/tirthajyoti-ghosh/apple-home-page-clone/7b4249ee7f52391a14927c3f9d2d9b961d706337/index.html)
+[Live Demo](https://rawcdn.githack.com/tirthajyoti-ghosh/apple-home-page-clone/9cd743276202ccfe3ff23313527afcc719b7684b/index.html)
 
 ## 🤝 Contributing
 
