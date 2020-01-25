@@ -324,6 +324,7 @@ main h1 {
 .title img {
   display: none;
   margin: 0 auto;
+  width: 980px;
 }
 
 .title .small {
@@ -343,6 +344,7 @@ main h2 {
   display: none;
   margin-right: auto;
   margin-left: auto;
+  width: 980px;
 }
 
 .subheadline .small {
@@ -362,6 +364,7 @@ main h2 {
 
 .center a .medium {
   display: inline-block;
+  width: 980px;
 }
 
 .center a .large {
