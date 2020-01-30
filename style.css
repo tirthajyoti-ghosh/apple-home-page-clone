@@ -479,7 +479,8 @@ footer .wrapper ul {
   display: inline;
 }
 
-footer .wrapper .left a {
+footer .wrapper .left a,
+footer .wrapper .piped a {
   color: #08c;
 }
 
@@ -495,6 +496,6 @@ footer .wrapper .left a {
   height: 34px;
 }
 
-footer .wrapper .piped a:hover {
+footer .wrapper a:hover {
   text-decoration: underline;
 }

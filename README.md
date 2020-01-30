@@ -1,4 +1,6 @@
 # apple-home-page-clone
+This project is a clone of Apple homepage from Web Archive.
+![demo image](demo-img.png)
 > Project built using basic HTML and CSS.
 
 This static page contains:
@@ -30,7 +32,7 @@ Contributions, issues and feature requests are welcome! Start by:
 * Open a Pull Request with a detailed description to the development branch of the original project for a review
 
 ## Attributions and Credit
-Special thanks to [Web Arcive](https://web.archive.org/)
+Special thanks to [Web Archive](https://web.archive.org/)
 
 ## Authors
 
